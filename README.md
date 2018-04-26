@@ -1,10 +1,10 @@
 Implementation of Dijkstra's Algorithm
 
-# RUN:
+## RUN:
 
 \> python dijkstra.py
 
-# NOTE:
+## NOTE:
 
 If default system interpreter is Python2, program will throw error.
 Python3 should be specified if not system default.
@@ -12,7 +12,7 @@ Python3 should be specified if not system default.
 Input files are hard-coded into .py file. Program will execute automatically
 only if source files are located in same directory.
 
-# HEAP IMPLEMENTATION:
+## HEAP IMPLEMENTATION:
 
 The algorithm makes use of Python's default heapq, a minimum priority queue.
 For altering heap content, Python's documentation suggests initializing an empty
@@ -30,7 +30,7 @@ to the in-class algorithm, as heappop() and heappush() both have time complexity
 of O(lg n).
 
 
-# EXPECTED OUTPUT:
+## EXPECTED OUTPUT:
 
 dijkstra(Case1.txt) --> [None, 'A', 'J', 'G', 'F', 'E', 'D', 'H', 'C', 'B']  Length = 142
 
